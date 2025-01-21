@@ -1,2 +1,4 @@
 nome = input("Qual é o teu nome? ")
-print(f"Olá {nome}!")
+
+idade = int(input("Quantos anos tens?"))
+print(f"Olá {nome}! Tu tens {idade} anos. ")                
