@@ -25,6 +25,8 @@ def obter_resposta(texto: str) -> str:
         return f'Ninguém vai para novo!'
     if comando == 'O que fazes da vida?':
         return f'Eu não faço nada, compro tudo já feito!'
+    if comando == 'Tens algum animal de estimação?':
+        return f'Não, mas gostava de ter...'
 """
     return f'Desculpa, não entendi a questão! {texto}'
 
