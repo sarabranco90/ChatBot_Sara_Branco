@@ -30,6 +30,8 @@ def obter_resposta(texto: str) -> str:
         'tempo': 'Está um dia de sol!',
         ('bye', 'adeus', 'tchau'): 'Gostei de falar contigo! Até breve...',
         'historia de portugal': 'Portugal tem uma rica história...',
+        'horas': lambda: f'São: {datetime.now():%H:%M} horas',
+        'data': lambda: f'Hoje é dia: {datetime.now():%d-%m-%Y}'
     }
 
     for chave, resposta in respostas.items():
