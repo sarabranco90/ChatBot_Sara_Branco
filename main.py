@@ -21,6 +21,8 @@ def obter_resposta(texto: str) -> str:
         return f'Hoje é dia: {datetime.now():%d-%m-%Y}'
     if comando == 'de onde és?':
         return f'Belíssima terra!'
+    if comando == 'Que idade tens?':
+        return f'Ninguém vai para novo!'
 """
     return f'Desculpa, não entendi a questão! {texto}'
 
